@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Users</title>
+	<link rel="stylesheet" href="users.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("tbody").append("<tr class='table_data'></tr>");
+		})
+		$(document).on("click", "button", function(){
+			console.log("I'm working");
+			var f= $("#first").val();
+			var ln= $("#second").val();
+			var e= $("#third").val();
+			var c=$("#fourth").val();
+			$(".table_data:last-child").append("<td>"+f+"</td>");
+			$(".table_data:last-child").append("<td>"+ln+"</td>");
+			$(".table_data:last-child").append("<td>"+e+"</td>");
+			$(".table_data:last-child").append("<td>"+c+"</td>");
+		})		
+	})
+	</script>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email Address</th>
+				<th>Contact#</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!--<tr id="table_data">
+			</tr>-->
+		</tbody>
+	</table>
+	<h1>Add User</h1>
+	<form>
+		<div>
+			First Name:<input id="first" type="text" name="first_name" placeholder="First Name">
+		</div>
+		<div>
+			Last Name:<input id="second" type="text" name="last_name" placeholder="Last Name">
+		</div>
+		
+			Email Address:<input id="third" type="text" id="email" name="email" placeholder="Email">
+		<div>
+			Contact No.:<input id="fourth" type="text" name="contact_number" placeholder="Phone #">
+		</div>
+	</form>
+	<button>Add User</button>
+
+</body>
+</html>

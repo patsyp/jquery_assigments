@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	width: 1300px;
+	background: -webkit-linear-gradient(top, #fceabb 0%,#fccd4d 67%,#fccd4d 86%,#fbdf93 100%); /* Chrome10-25,Safari5.1-6 */
+	margin-left: 100px;
+}
+#title{
+	margin-left:400px;
+	margin-top: 20px;
+	font-family: comic;
+	font-size: 45px
+}
+#pokemon{
+	display: inline-block;
+	width: 939px;
+}
+#background{
+	background: linear-gradient(45deg, #a90329 38%,#6d0019 60%,#6d0019 60%,#6d0019 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	height: 550px;
+	width: 340px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 150px;
+}
+.container{
+	background: linear-gradient(135deg, rgba(254,254,244,1) 3%,rgba(247,248,158,1) 30%); 
+	height: 430px;
+	width: 220px;
+	margin: 20px;
+	padding: 40px;
+}
+.container p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.container h2{
+	margin: 10px;
+}
+.container h1{
+	margin-bottom: 10px;
+}
+}

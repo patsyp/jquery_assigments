@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+body{
+	padding: 20px;
+}
+table{
+	border: 1px solid;
+	border-color: black;
+	margin-bottom: 38px;
+}
+/*th{*/
+	/*display: inline-block;*/
+	/*margin-right: 100px;*/
+h1{
+	border-bottom: 2px solid;
+	border-color: gray;
+	width: 400px;
+	margin-bottom: 15px;
+}
+input{
+	border: 1px solid;
+	border-color: black;
+	font-size: 16px;
+	margin: 5px;
+}
+button{
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 15px 0px 15px 40px; 
+	font-size: 11px;
+}
